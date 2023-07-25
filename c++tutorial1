@@ -14,12 +14,17 @@ int main()
 	myInt = 12;
 	cout << myCharacter << '\n';
 	cout << myInt << endl;
-int a(1);
+
+	int a(1);
 	int b = 5;
 	if (b < a)
 		cout << "b less than a";
+	else if (a < b)
+		cout << "b is not less than a" << endl;
+	else if (a == b)
+		cout << "b is equal to a";
 	else
-		cout << "b is not less than a"<< endl;
+		cout << "b is not less than a, b is not greater than a, a is not equal to b" << endl;
 	system("pause");
 	
 }
