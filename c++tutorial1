@@ -14,7 +14,12 @@ int main()
 	myInt = 12;
 	cout << myCharacter << '\n';
 	cout << myInt << endl;
-
+int a(1);
+	int b = 5;
+	if (b < a)
+		cout << "b less than a";
+	else
+		cout << "b is not less than a"<< endl;
 	system("pause");
 	
 }
