@@ -1,0 +1,37 @@
+# include <iostream>
+using namespace std;
+
+void welcome();
+char getYesNo();
+void printResponse(char responseToPrint);
+void AskYesorNoQuestion();
+
+int main()
+{
+	AskYesorNoQuestion();
+	system("pause");
+}
+void welcome()
+{
+	cout << "hi\n";
+}
+char getYesNo()
+{
+	cout << "enter y or n \n";
+	char response;
+	cin >> response;
+	return response;
+}
+
+void printResponse(char responseToPrint)
+{
+	cout << "your answer was:"<<responseToPrint<<endl;
+}
+
+void AskYesorNoQuestion()
+{
+	welcome();
+	char answer = getYesNo();
+	printResponse(answer);
+
+}
