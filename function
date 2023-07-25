@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+
+void welcome()
+{
+	cout << "then comes void\n";
+	cout << "welcome\n";
+}
+void printNumber(int numToPrint)
+{
+	cout << "last is print number"<<endl<<numToPrint << "\n";
+}
+
+int main()
+{
+
+	cout << "this gets first prority\n";
+
+	welcome();
+	printNumber(4);
+
+	system("pause");
+}
